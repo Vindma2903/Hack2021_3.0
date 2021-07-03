@@ -1,0 +1,188 @@
+/*Подключаем шрифты*/
+/*PTSans*/
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+h1, h2, h3, h4, h5, h6
+{
+  color: black;
+  font-family: 'PT Sans', sans-serif;
+  font-weight: 400;
+}
+
+header
+{
+  margin-top: 44px;
+  width: 100%;
+  height: 97px;
+}
+
+.head
+{
+  background: #4A89DC;
+  width: 100%;
+  height: 97px;
+}
+
+/*Ссылки*/
+.nav-menu
+{
+    margin-left: 686px;
+    list-style: none;
+}
+
+ul .nav-menu
+{
+      padding-left: 46px;
+      list-style: none;
+      margin-top: -5px;
+}
+
+.nav-menu li
+{
+  float: left;
+}
+
+
+ul.nav-menu a {
+  display: block;
+      padding: 10px 10px 10px 2px;
+      margin: 0px 19px;
+      text-decoration: none;
+      color: black;
+      text-align: center;
+      margin-left: 58px;
+      width: 100%;
+      margin-top: -37px;
+      margin-left: 17px;
+}
+
+
+
+/*Поиск*/
+
+.search {
+	width: 71%;
+	position: absolute;
+  margin-top: 33px;
+  margin-left: 87px;
+}
+
+.search input {
+	border: none;
+}
+
+/* стили для поля ввода */
+.search .input {
+	width: 100%;
+	padding: 8px 37px 9px 15px;
+	/* чтобы ширина поля ввода (100%) включала в себя внутренние отступы */
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	/* добавляем внутренние тени */
+	box-shadow: inset 0 0 5px rgba(0,0,0,0.1), inset 0 1px 2px rgba(0,0,0,0.3);
+	border-radius: 20px;
+	background: #EEE;
+	font: 13px Tahoma, Arial, sans-serif;
+	color: #555;
+	outline: none;
+}
+
+/* меняем оформление поля ввода при фокусе */
+.search .input:focus {
+	box-shadow: inset 0 0 5px rgba(0,0,0,0.2), inset 0 1px 2px rgba(0,0,0,0.4);
+	background: #E8E8E8;
+	color: #333;
+}
+
+/* оформляем кнопку отправки */
+.search .submit {
+	/* позиционируем кнопку абсолютно от правого края формы */
+	position: absolute;
+	top: 0;
+	right: 0;
+
+	width: 37px;
+
+	/* растягиваем кнопку на всю высоту формы */
+	height: 100%;
+
+	cursor: pointer;
+	background: url(https://lh4.googleusercontent.com/-b-5aBxcxarY/UAfFW9lVyjI/AAAAAAAABUg/gQtEXuPuIds/s13/go.png) 50% no-repeat;
+
+	/* добавляем прозрачность кнопке отправки */
+	opacity: 0.5;
+}
+
+/* при наведении курсора меняем прозрачность кнопки отправки */
+.search .submit:hover {
+	opacity: 0.8;
+}
+
+/* данное свойство необходимо для того, чтобы в браузерах
+** Chrome и Safari можно было стилизовать инпуты */
+input[type="search"] {
+	-webkit-appearance: none;
+}
+
+
+/*Вход и регистрация*/
+
+
+.sign-in
+{
+  margin-left: 1008px;
+  margin-top: 2px;
+  list-style: none;
+}
+
+.sign-in li
+{
+  margin-top: 31px;
+}
+
+ul .sign-in
+{
+      padding-left: 46px;
+      list-style: none;
+      margin-top: -5px;
+}
+
+.sign-in li
+{
+  float: left;
+}
+
+
+ul.sign-in a {
+  display: block;
+    padding: 10px 10px 10px 2px;
+    margin: 0px 2px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    width: 100%;
+
+}
+
+
+.info-arh
+{
+  margin-right: 10px;
+}
+
+.arhive
+{
+  max-width: 95%;
+  margin-left: 3%;
+}
+
+/*Список архивов*/
+
+.arhive a:link {
+    text-decoration: none; /* Убирает подчеркивание для ссылок */
+   }
+
+.arhive a:hover {
+      text-decoration: underline; /* Делает ссылку подчеркнутой при наведении на нее курсора */
+      color: black; /* Цвет ссылки */

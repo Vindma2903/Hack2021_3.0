@@ -1,0 +1,13 @@
+[Friday, 02-July-2021, 14:59:57 GMT +0000] Requested dev page from 127.0.0.1
+GET /dev HTTP/1.1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.5
+Connection: keep-alive
+Content-Length: 
+Content-Type: text/plain
+Host: oxmrvv6xclga3fkpydcira76ppowtfrfwpiavvi3uekxfbt4bcy7ceyd.onion
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; rv:78.0) Gecko/20100101 Firefox/78.0
+
+
